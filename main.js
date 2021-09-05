@@ -115,6 +115,9 @@ client.on('message', message =>{
         case('donate'):
             client.commands.get('donate').execute(message, args);
             break;
+        case('github'):
+            client.commands.get('github').execute(message, args);
+            break;
     }
 });
 
