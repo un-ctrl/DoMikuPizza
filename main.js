@@ -118,6 +118,9 @@ client.on('message', message =>{
         case('github'):
             client.commands.get('github').execute(message, args);
             break;
+        case('mikuiloveyou'):
+            client.commands.get('mikuiloveyou').execute(message, args);
+            break;
     }
 });
 
