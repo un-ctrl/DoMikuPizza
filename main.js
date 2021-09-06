@@ -115,6 +115,15 @@ client.on('message', message =>{
         case('donate'):
             client.commands.get('donate').execute(message, args);
             break;
+        case('github'):
+            client.commands.get('github').execute(message, args);
+            break;
+        case('mikuiloveyou'):
+            client.commands.get('mikuiloveyou').execute(message, args);
+            break;
+        case('developer'):
+            client.commands.get('developer').execute(message, args);
+            break;
     }
 });
 

@@ -3,6 +3,6 @@ module.exports = {
     description: "sends version info",
     category: "funny",
     execute(message, args){
-        message.channel.send('DoMikus Pizza v1.1.1')
+        message.channel.send('DoMikus Pizza v1.4.1')
     },
 };
