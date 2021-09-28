@@ -34,3 +34,5 @@ joke commands
 - fruits: bot reacts with 3 fruits
 - sad: sends cool animals so you arent sad
 - mikuiloveyou: miku loves you
+
+The pizza points currency system i tried to implement does not work, prolly because i have zero idea what im doing tbh
