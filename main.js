@@ -124,6 +124,9 @@ client.on('message', message =>{
         case('developer'):
             client.commands.get('developer').execute(message, args);
             break;
+        case('pipebomb'):
+            client.commands.get('pipebomb').execute(message, args);
+            break;
     }
 });
 
