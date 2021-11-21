@@ -109,8 +109,8 @@ client.on('message', message =>{
         case('sad'):
             client.commands.get('sad').execute(message, args);
             break;
-        case('nerv'):
-            client.commands.get('nerv').execute(message, args);
+        case('monster'):
+            client.commands.get('monster').execute(message, args);
             break;
         case('donate'):
             client.commands.get('donate').execute(message, args);
@@ -126,6 +126,9 @@ client.on('message', message =>{
             break;
         case('pipebomb'):
             client.commands.get('pipebomb').execute(message, args);
+            break;
+        case('cat'):
+            client.commands.get('cat').execute(message, args);
             break;
     }
 });
