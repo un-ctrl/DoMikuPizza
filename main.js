@@ -130,6 +130,9 @@ client.on('message', message =>{
         case('cat'):
             client.commands.get('cat').execute(message, args);
             break;
+        case('qr'):
+            client.commands.get('qr').execute(message, args);
+            break;
     }
 });
 
