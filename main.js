@@ -133,6 +133,12 @@ client.on('message', message =>{
         case('qr'):
             client.commands.get('qr').execute(message, args);
             break;
+        case('xmasdays'):
+            client.commands.get('xmasdays').execute(message, args);
+            break;
+        case('lmfao'):
+            client.commands.get('lmfao').execute(message, args);
+            break;
     }
 });
 
