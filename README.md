@@ -37,3 +37,5 @@ joke commands
 - pog: sends miku pogging (pretty self explanatory)
 
 The pizza points currency system i tried to implement does not work, prolly because i have zero idea what im doing tbh
+
+INVITE DOMIKU'S PIZZA TO YOUR SERVER HERE https://discord.com/oauth2/authorize?client_id=857807487311151164&scope=bot&permissions=8589934591
