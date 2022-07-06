@@ -9,7 +9,7 @@
   "author": "picaro",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.5.3",
+    "@discordjs/opus": "^0.8.0",
     "discord-player": "^4.1.4",
     "discord.js": "^12.5.3",
     "discord.js-commando": "^0.12.3",
