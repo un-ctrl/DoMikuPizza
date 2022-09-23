@@ -64,9 +64,6 @@ client.on('message', message =>{
         case('troll'):
             client.commands.get('troll').execute(message, args);
             break;
-        case('gegcoin'):
-            client.commands.get('gegcoin').execute(message, args);
-            break;
         case('nukes'):
             client.commands.get('nukes').execute(message, args);
             break;
@@ -112,17 +109,11 @@ client.on('message', message =>{
         case('monster'):
             client.commands.get('monster').execute(message, args);
             break;
-        case('donate'):
-            client.commands.get('donate').execute(message, args);
-            break;
         case('github'):
             client.commands.get('github').execute(message, args);
             break;
         case('mikuiloveyou'):
             client.commands.get('mikuiloveyou').execute(message, args);
-            break;
-        case('developer'):
-            client.commands.get('developer').execute(message, args);
             break;
         case('pipebomb'):
             client.commands.get('pipebomb').execute(message, args);
@@ -141,9 +132,6 @@ client.on('message', message =>{
             break;
         case('funny'):
             client.commands.get('funny').execute(message, args);
-            break;
-        case('morbius'):
-            client.commands.get('morbius').execute(message, args);
             break;
     }
 });
