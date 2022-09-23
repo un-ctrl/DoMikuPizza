@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const CommandHandler = require("wokcommands");
 const client = new Discord.Client({
     partials: ["MESSAGE", "REACTION"],
-});
+}); 
 
 const config = require("./config.json");
 const welcome = require("./welcome");
@@ -28,7 +28,7 @@ client.on('ready', () => {
     }).setMongoPath(process.env.MONGO_URI)
     .setDefaultPrefix("-");
     console.log('Domino pizza');
-    client.user.setActivity('ayo the pizza here', { type: "PLAYING" }).catch(console.error)
+    client.user.setActivity('Pizza Tower (early access babyyyyy)', { type: "PLAYING" }).catch(console.error)
 
     welcome(client);
 
@@ -91,8 +91,8 @@ client.on('message', message =>{
         case('funkin'):
             client.commands.get('funkin').execute(message, args);
             break;
-        case('death'):
-            client.commands.get('death').execute(message, args);
+        case('meth'):
+            client.commands.get('meth').execute(message, args);
             break;
         case('noid'):
             client.commands.get('noid').execute(message, args);
@@ -106,8 +106,8 @@ client.on('message', message =>{
         case('jcommands'):
             client.commands.get('jcommands').execute(message, args);
             break;
-        case('sad'):
-            client.commands.get('sad').execute(message, args);
+        case('NFT'):
+            client.commands.get('NFT').execute(message, args);
             break;
         case('monster'):
             client.commands.get('monster').execute(message, args);
@@ -138,6 +138,12 @@ client.on('message', message =>{
             break;
         case('ratio'):
             client.commands.get('ratio').execute(message, args);
+            break;
+        case('funny'):
+            client.commands.get('funny').execute(message, args);
+            break;
+        case('morbius'):
+            client.commands.get('morbius').execute(message, args);
             break;
     }
 });
@@ -171,6 +177,7 @@ client.on('message', message => {
         client.commands.get('giveany').execute(message, args, role);
     }
 });
+
 
 client.login('token');
 
