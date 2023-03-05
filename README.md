@@ -1,9 +1,6 @@
 Discord Bot made by me (picaro) for fun and for my friends
 ![](https://www.kayac.com/uploads/project/main_image/1062/main.png)
-- DoMikus Pizza is in no way associated with Hatsune Miku, Crypton Future Media, Vocaloid, or Dominos Pizza. Any references to direct association to specified parties are purely coincidental.
-- DoMikus Pizza does not endorse, and is not sponsored by previously specificed Parties.
-- All logos and references to companies, brands, or persons are not paid for and are public domain.
-- This bot is based off of Dominos Pizza feat. Hatsune Miku, a Dominos - Miku collaboration app released exclusively for a japanese audience, developed by Kayac and hosted by Dominos Pizza.
+
  More information about this app can be found on the wikipedia article: https://en.wikipedia.org/wiki/Domino%27s_App_feat._Hatsune_Miku
  ![](https://i.imgur.com/HZe86st.png)
  
