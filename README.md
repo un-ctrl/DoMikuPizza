@@ -1,4 +1,4 @@
-Discord Bot made by me (picaro) for fun and for my friends
+Discord Bot made by me for fun and for my friends
 ![](https://www.kayac.com/uploads/project/main_image/1062/main.png)
 
  More information about this app can be found on the wikipedia article: https://en.wikipedia.org/wiki/Domino%27s_App_feat._Hatsune_Miku
